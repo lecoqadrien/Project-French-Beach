@@ -1,0 +1,208 @@
+/*Header*/
+.Header__title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:24px;
+    font-weight: lighter;
+    display: inline-block;
+    margin-top: 3vh;
+
+}
+
+.header__message{
+    height: 30px;
+}
+
+.header__profil{
+    height: 30px;
+}
+
+header
+{
+    height: 10vh;
+    background: white;
+}
+
+header h1
+{
+    float:left;
+}
+
+header nav
+{
+    float:right;
+    margin-top: 50px,
+}
+
+header nav ul li
+{
+    display:inline-block;
+    margin-left: 45px;
+    margin-bottom: 22px;
+}
+header nav ul a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right:20px;
+}
+
+li {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 34px;
+    color: black;
+    
+}
+
+/*Recherche*/
+.main-image{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height:90vh;
+    width: 100vw;
+    background-image: url(../Images/plagee.jpg);
+}
+
+.main-image__title{
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+select{
+    display: inline-block;
+    margin:0 auto;
+    border: none;
+    margin-top: 10px;
+    padding: 13px;
+}
+
+.main-image__recherche{
+    
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+    height: 10vh;
+    width: 56vw;
+    background-color: white;
+    border-radius: 10px;
+    padding: 13px;
+}
+form{
+    background-color:#fff;
+    border:solid 1px #0af;
+    min-width:60px;
+    font-family: »Times New Roman », Times, serif;
+}
+
+.formulaire--region{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.Red
+
+option{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size:20px;
+}
+
+
+/*Concept*/
+
+#Concept{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.Plage{
+    display: block;
+    margin-top: 3%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.Concept__text{
+    width: 50%;
+    margin-top: 10vh;
+}
+
+h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: regular;
+}
+
+p{  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    text-align:center;
+    line-height: 34px
+}
+
+.Concept__Bouton{
+    height:35px;
+    width: 100px;
+    background: black;
+    margin: 0 auto;
+}
+
+.Concept__Bouton:hover{
+    background: black
+}
+
+h3{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    text-align:center;
+    font-size: 17px;
+}
+
+/*Nos régions*/
+#Regions{
+    height: 90vh;
+}
+
+.Regions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.plage__atlantique{
+    height: 34vh;
+}
+
+.plage__arcachon{
+    height: 34vh;
+}
+
+.plage__provence{
+    height: 34vh;
+}
+
+#Ecologie{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    height: 34px;
+    width: 100%;
+    background:rgb(0, 99, 138);
+}
+
+input{
+    height: 24px;
+    width: 200px;
+}
